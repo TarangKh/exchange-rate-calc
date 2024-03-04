@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0A122A;
+    /* #333232; */
+}
+
+h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.container {
+    background-color: white;
+    padding: 2rem;
+    /* padding-top: 4rem; */
+    padding-bottom: 4rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 50vh;
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+}
+
+select, button, input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+label {
+    display: block;
+}
+
+input {
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.75rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.select-container img {
+    max-width: 2rem; 
+}
+
+.select-container {
+    display: flex;
+    width: 6rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+}
+
+.dropdown i {
+    font-size: 1.5rem;
+}
+
+.select-container select {
+    font-size: 1rem;
+    width: auto;
+}
+
+.msg {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    
+}
+
+#submit {
+    height: 3rem;
+    background-color: #dadfd0;
+    font-size: 1.1rem;
+}
+
+#submit:hover {
+    cursor: pointer;
+}
+
+.result {
+    width: 100%;
+    /* min-height: auto; */
+    height: 3rem;
+    /* text-align: center; */
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    /* background-color: black; */
+}
+
+label {
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+}
